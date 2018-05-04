@@ -6,7 +6,7 @@ Digging (by chance) = Cavando (por acaso)
 # Template
 ### bags.lua ###
 Bags = Bolsas
-Bag @1 = Bolsa @1
+Bag @1 = Bolsa %02d
 Small Bag = Bolsa Pequena
 Medium Bag = Bolsa Média
 Large Bag = Bolsa Grande
@@ -79,7 +79,7 @@ Give me: = Gerado:
 To craft grid: = Para Grade de Artesanato
 
 ### group.lua ###
-# Logical connective, example: “Any item belonging to the groups foo and bar”
+# Conectivo lógico, exemplo: "Qualquer item pertencente aos grupos foo e bar"
 \sand\s = 
 
 ### waypoints.lua ###
@@ -88,20 +88,20 @@ Yellow = Amarelo
 Red = Vermelho
 Green = Verde
 Blue = Azul
-Waypoints = Apontador de Direção
-Waypoint %d = Apontador de Direção %002
-Waypoint active = Apontador de Direção Ativo
-Waypoint inactive = Apontador de Direção Inativo
+Waypoints = Apontadores
+Waypoint %d = Apontador %02d
+Waypoint active = Apontador Ativo
+Waypoint inactive = Apontador Inativo
 World position = Posição Mundial
 Name = Nome
 HUD text color = Cor de HUD
-Edit waypoint name = Editar Nome de Apontador de Direção
-Rename waypoint = Renomear Apontador de Direção
-Change color of waypoint display = Mudar cor exibida do Apontador de Direção
-Set waypoint to current location = Configurar localização atual do Apontador de Direção
-Make waypoint visible = Fazer Apontador de Direção Visível
-Make waypoint invisible = Fazer Apontador de Direção Invisível
-Disable display of waypoint coordinates = Desativar exibição de coordenadas de Fazer Apontador de Direção
-Enable display of waypoint coordinates = Ativar exibição de coordenadas de Fazer Apontador de Direção
+Edit waypoint name = Editar Nome de Apontador
+Rename waypoint = Renomear Apontador
+Change color of waypoint display = Mudar cor exibida do Apontador
+Set waypoint to current location = Configurar localização atual do Apontador
+Make waypoint visible = Fazer Apontador Visível
+Make waypoint invisible = Fazer Apontador Invisível
+Disable display of waypoint coordinates = Desativar exibição de coordenadas de Fazer Apontador
+Enable display of waypoint coordinates = Ativar exibição de coordenadas de Fazer Apontador
 Finish editing = Edição Finalizada
-Select Waypoint #%d = Seleção de Apontador de Direção #%02d
+Select Waypoint #%d = Seleção de Apontador #%02d
